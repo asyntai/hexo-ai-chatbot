@@ -1,0 +1,43 @@
+{
+  "name": "hexo-ai-chatbot",
+  "version": "1.0.0",
+  "description": "Add the Asyntai AI chat assistant to your Hexo site. It answers visitor questions from your own content, in 80+ languages.",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "hexo",
+    "hexo-plugin",
+    "chatbot",
+    "ai",
+    "chat",
+    "live-chat",
+    "support",
+    "customer-support",
+    "asyntai"
+  ],
+  "homepage": "https://asyntai.com/documentation/integrations/hexo/",
+  "bugs": {
+    "url": "https://github.com/asyntai/hexo-ai-chatbot/issues",
+    "email": "hello@asyntai.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asyntai/hexo-ai-chatbot.git"
+  },
+  "author": "Asyntai <hello@asyntai.com> (https://asyntai.com)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0"
+  },
+  "scripts": {
+    "test": "node tests/test_loader.js"
+  },
+  "peerDependencies": {
+    "hexo": ">=5.0.0"
+  }
+}
